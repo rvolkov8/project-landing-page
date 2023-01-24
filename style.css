@@ -89,7 +89,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 80px 300px;
+    padding: 80px 200px;
 }
 
 #info-title {
@@ -121,4 +121,29 @@ a {
 .illustration-description {
     font-size: 18px;
     color: gray;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 80px 200px;
+
+    background-color: #E5E7EB;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#author {
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: auto;
 }
