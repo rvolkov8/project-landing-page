@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 300px;
+    padding: 20px 200px;
 }
 
 #logo {
@@ -30,4 +30,55 @@ a {
     text-decoration: none;
     color: #F9FAF8;
     font-weight: 400;
+}
+
+#opener {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+}
+
+#opener-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+#opener-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+#opener-subtext {
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+#sign-up-btn {
+    background-color: #3382F6;
+    border: none;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 10px 35px;
+    border-radius: 6px;
+}
+
+#opener-image-placeholder {
+    height: 250px;
+    width: 500px;
+    background-color: gray;
+    color: #F9FAF8;
+
+    flex: 0 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
